@@ -16,7 +16,7 @@ public class Task1 {
         System.out.println("Enter your lastname: ");
         String lastname = input.nextLine();
 
-        System.out.println("Unesite godinu rodjenja: ");
+        System.out.println("Enter your year of birth: ");
         int birthYear = input.nextInt();
 
         System.out.println(name + " " + lastname + ", " + (2023 - birthYear));
